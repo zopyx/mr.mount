@@ -22,7 +22,7 @@ setup(name="mr.mount",
       include_package_data=True,
       install_requires=('fs',
                         ),
-      namespace_packages=('mr', 'mrmount'),
+      namespace_packages=('mr', 'mr.mount'),
       extras_require=dict(
       ),
     )
